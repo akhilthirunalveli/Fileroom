@@ -209,7 +209,44 @@ MIT License - feel free to use this in your own projects!
 
 Created with ❤️ for better file management
 
+## Quick Start Guide 🏃
+
+### First Time Users
+
+1. **Download the organizer:**
+   ```bash
+   wget https://raw.githubusercontent.com/akhilthirunalveli/Fileroom/main/smart_file_organizer.py
+   ```
+
+2. **Make it executable (Linux/Mac):**
+   ```bash
+   chmod +x smart_file_organizer.py
+   ```
+
+3. **Run your first organization:**
+   ```bash
+   python3 smart_file_organizer.py ~/Downloads --report
+   ```
+
+4. **See the magic happen:**
+   ```bash
+   python3 smart_file_organizer.py ~/Downloads -m type
+   ```
+
+### Pro Tips 💪
+
+- Always run with `--report` first to preview
+- Start with a backup or test folder
+- Use `-m date` for old photo collections
+- Use `-m size` when storage is limited
+- Combine with cron jobs for automatic organization
+
 ## Changelog 📅
+
+### Version 1.0.1 (2026-01-31)
+- Added Quick Start Guide for new users
+- Enhanced documentation with pro tips
+- Improved file handling examples
 
 ### Version 1.0.0 (2026-01-26)
 - Initial release
