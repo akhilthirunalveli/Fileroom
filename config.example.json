@@ -1,0 +1,26 @@
+{
+  "ignore_patterns": [
+    ".DS_Store",
+    "Thumbs.db",
+    ".git",
+    "__pycache__",
+    ".tmp",
+    "desktop.ini",
+    ".crdownload",
+    ".part",
+    "~$"
+  ],
+  "processing_delay": 2,
+  "organize_method": "type",
+  "auto_start": false,
+  "notifications": {
+    "enabled": false,
+    "sound": false
+  },
+  "custom_categories": {
+    "Books": [".epub", ".mobi", ".azw", ".azw3"],
+    "Fonts": [".ttf", ".otf", ".woff", ".woff2"],
+    "3D Models": [".obj", ".fbx", ".stl", ".blend"],
+    "CAD": [".dwg", ".dxf", ".step", ".iges"]
+  }
+}

@@ -1,6 +1,7 @@
 # Smart File Organizer - Requirements
-# This project uses only Python standard library
-# No external dependencies required!
 
 # Python version requirement
 python>=3.6
+
+# For file_watcher.py - monitors directories for real-time file organization
+watchdog>=2.1.0
